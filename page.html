@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile Found</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ff5c8a, #6c63ff);
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile {
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(10px);
+      border-radius: 18px;
+      padding: 30px;
+      width: 90%;
+      max-width: 380px;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+      text-align: center;
+    }
+
+    .status {
+      font-size: 12px;
+      letter-spacing: 2px;
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 52px;
+      margin: 0 auto 14px;
+    }
+
+    h1 {
+      margin: 10px 0 4px;
+      font-size: 26px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      opacity: 0.85;
+      margin-bottom: 18px;
+    }
+
+    .bio {
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 22px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 22px;
+    }
+
+    .tag {
+      font-size: 12px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    .cta {
+      border: 1px solid #ffffff;
+      border-radius: 999px;
+      padding: 12px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      background: transparent;
+      color: #ffffff;
+    }
+
+    .cta:hover {
+      background: #ffffff;
+      color: #000000;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 11px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile">
+    <div class="status">PROFILE LOADED</div>
+
+    <div class="avatar">😌</div>
+
+    <h1>You Found Me</h1>
+    <div class="subtitle">Error 404 · Love Optional</div>
+
+    <div class="bio">
+      Emotionally stable.<br>
+      Chronically funny.<br>
+      Attracted to confidence and good playlists.
+      <br><br>
+      Currently accepting applications.<br>
+      Side effects may include butterflies.
+    </div>
+
+    <div class="tags">
+      <div class="tag">Flirty</div>
+      <div class="tag">Single-ish</div>
+      <div class="tag">High Standards</div>
+      <div class="tag">Soft Launch</div>
+      <div class="tag">Emotionally Available*</div>
+    </div>
+
+    <button class="cta" onclick="alert('Connection request sent 👀')">
+      Shoot Your Shot
+    </button>
+
+    <div class="footer">
+      *Terms and conditions apply
+    </div>
+  </div>
+
+</body>
+</html>
